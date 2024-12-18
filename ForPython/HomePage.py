@@ -13,6 +13,7 @@ def addContact():
         "name": name,
         "email": email,
         "phone": phone,
+        "lastName":"Lastname",
         "address": address,
         "id": len(contacts)+1
     })
